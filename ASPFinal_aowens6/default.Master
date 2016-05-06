@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="default.master.cs" Inherits="ASPFinal_aowens6._default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>5000 Words to Fluency</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+    <div id="wrapper">
+        <img id="eiffel" src="Content/eiffel.png" />
+        
+        <header>
+            <h1>5000 Words to Fluency</h1>
+        </header>
+        <nav>
+            <asp:Menu ID="mainMenu" runat="server" DataSourceID="smdsMainNavigation" Orientation="Horizontal">
+
+                <DynamicMenuItemStyle CssClass="navItem navChildItem"  />
+
+                <StaticMenuItemStyle  CssClass="navItem"/>
+
+            </asp:Menu>
+        </nav>
+        <div id="mainContent">
+            <asp:ContentPlaceHolder ID="cphMainContent" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <small>&copy; 2016 AJ Owens</small>
+        </footer>
+    </div>
+        <asp:SiteMapDataSource ID="smdsMainNavigation" runat="server" ShowStartingNode="false"/>
+    </form>
+</body>
+</html>

@@ -1,0 +1,99 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+body {
+    background: linear-gradient(to right, blue, white 15%, white 85%, red);
+    position: relative;
+    padding: 0;
+}
+
+header{
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+    text-align: center;
+    position: relative;
+}
+
+
+h1{
+    margin: 0;
+}
+
+nav{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+
+}
+
+#mainMenu{
+    position: relative;
+
+}
+
+.navItem{
+    margin: 30px;
+    font-size: 1em;
+}
+
+.navItem:visited{
+    color: #777;
+}
+.navItem:hover{
+    text-shadow: 8px 8px 30px #1d41e1
+}
+
+.navChildItem{
+    margin: 0;
+}
+
+#wrapper{
+    margin: 0 auto;
+    width: 70%;
+    font-family: 'Berlin Sans FB', arial;
+}
+
+#eiffel{
+    position: absolute;
+    left: -500px;
+    opacity: 0.1;
+    height: 2000px;
+}
+
+#mainContent{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.formInput{
+    position: relative;
+    display: block;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+.profileInfoLabel{
+    display: inline-block;
+}
+
+#frvVerb{
+    position: relative;
+
+}
+
+#gvVerb{
+    position: relative;
+
+}
+
+footer{
+    width: 90%;
+    margin: 0 auto;
+}
+
+ 
